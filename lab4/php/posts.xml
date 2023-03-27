@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts>
+    <post id="1">
+        <title>Всем привет!</title>
+        <content>Как у вас дела?</content>
+        <published>2022-02-01 12:00:00</published>
+        <last_edited>2023-03-27 13:03:42</last_edited>
+    </post>
+    <post id="2">
+        <title>Второй пост</title>
+        <content>Всё круто!</content>
+        <published>2022-03-01 12:00:00</published>
+        <last_edited>2023-03-27 13:03:52</last_edited>
+    </post>
+</posts>

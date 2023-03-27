@@ -1,0 +1,212 @@
+body {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    width: 940px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.footer_text {
+    position: absolute;
+    bottom: 30px;
+    left: 43%;
+}
+
+
+.margin_bottom {
+    margin-bottom: 120px;
+}
+
+header {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 32px;
+    padding-bottom: 25px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    color: #828282;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.main {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about .title {
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+.about section {
+    padding-bottom: 40px;
+}
+
+.about section:last-child {
+    padding-bottom: 120px;
+}
+
+.left {
+    font-size: 47px;
+    line-height: 59px;
+    float: left;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.portfolio {
+    width: 940px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio_img {
+    width: 940px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.portfolio_description {
+    margin-bottom: 100px;
+}
+
+.contacts {
+    width: 940px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.program_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.program_list a{
+    margin-right:50px;
+}
+
+.program_list a:first-child{
+    margin-left: 50px;
+}
+
+.program_list a:last-child{
+    margin-right: 0;
+}
+
+.skill {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    min-width: 140px;
+    color: #828282;
+}
+
+.skill img {
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    max-width: 70px;
+}
+
+.skill .stars {
+    position: absolute;
+    top: 90%;
+}
+
+.skills section:last-child {
+    padding-bottom: 120px;
+}
+
+.underline {
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #070707;
+}
+
+.footer_info {
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.footer_button {
+    margin-bottom: 60px;
+}
+
+.footer_social {
+    color: #828282;
+}
+.footer_social img {
+    display: inline-block;
+    width: 40px;
+    margin-right: 6%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer_social img:first-child {
+    margin-left: 5%;
+}
+
+.footer_social img:active {
+    width: 38px;
+    transition: 0.1s;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 180px;
+    height: 42px;
+    background: #070707;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: "Gilroy", sans-serif;
+}
+
+@font-face {
+    font-family: "Kimberley";
+    src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+  }
