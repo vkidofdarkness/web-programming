@@ -55,8 +55,7 @@ nav {
 
 .about {
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    width: 940px;
 }
 
 .about .title {
@@ -206,6 +205,9 @@ header {
 .left {
     font-size: 48px;
     line-height: 44px;
+}
+.about {
+    width: auto;
 }
 .skills {
     width: auto;
